@@ -1,20 +1,5 @@
 @charset "UTF-8";
 
-@media  screen and (max-width:768px) {
-    div.campo > input {
-        div.campo > input {
-            background-color:#7df7c0;
-            font-size: 1em;
-            width: calc(100% - 44.9px);
-            height: 100%;
-            border: none;
-            border-radius: 8px;
-            padding: 4px;
-            transform: translateY(-11px);
-    }
-    
-}
-
 @media screen and (min-width:768px) and (max-width:992px) {
     body {
         background-image: linear-gradient( to top,  #49a09d, #5f2c82);
@@ -39,7 +24,7 @@
 
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1200px) {
     body {
         background-image: linear-gradient( to top,  #49a09d, #5f2c82);
     }
